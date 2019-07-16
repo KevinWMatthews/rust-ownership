@@ -60,7 +60,8 @@ fn example4() {
     let z = &mut x;
     let _val = *z; // <-- Lifetime of reference 'z' ends
 
-    let y = &x; // <-- Create a new reference 'y'
+    // Create a new reference
+    let y = &x; // <-- Lifetime of reference 'y' starts
     let _val = *y; // <-- Lifetime of new reference 'y' ends
 
     // Do not use 'z' again! This would extend its scope.
