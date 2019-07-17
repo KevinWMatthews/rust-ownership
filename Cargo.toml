@@ -7,5 +7,5 @@ edition = "2018"
 [dependencies]
 
 [[bin]]
-name = "mutable_reference_scope"
-path = "src/mutable_reference_scope.rs"
+name = "lifetimes_for_references"
+path = "src/lifetimes_for_references.rs"
