@@ -1,7 +1,7 @@
 # Ownership in Rust
 
 Sample code illustrating ownership in Rust.
-Supporting content for [this series of blog posts](http://blog.kevinwmatthews.com/tags/#ownership).
+Supporting content for [this blog post](http://blog.kevinwmatthews.com/rust-non-lexical-lifetimes-for-references/).
 
 
 ## Prerequisites
