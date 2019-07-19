@@ -11,5 +11,9 @@ name = "dereferencing_copy_type"
 path = "src/dereferencing_copy_type.rs"
 
 [[bin]]
+name = "dereferencing_non_copy_type"
+path = "src/dereferencing_non_copy_type.rs"
+
+[[bin]]
 name = "lifetimes_for_references"
 path = "src/lifetimes_for_references.rs"
