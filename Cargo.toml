@@ -7,5 +7,9 @@ edition = "2018"
 [dependencies]
 
 [[bin]]
+name = "dereferencing_copy_type"
+path = "src/dereferencing_copy_type.rs"
+
+[[bin]]
 name = "lifetimes_for_references"
 path = "src/lifetimes_for_references.rs"
